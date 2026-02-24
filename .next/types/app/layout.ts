@@ -1,4 +1,4 @@
-// File: C:\lecture\pm-incubator-forge\JinyoungOh\next\frontend\app\layout.tsx
+// File: C:\lecture\twice-frontend\app\layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
