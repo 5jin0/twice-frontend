@@ -407,7 +407,7 @@ button {
   position: relative;
 }
 .dashboard-header {
-  background: var(--dashboard-green-muted);
+  background: #f7f6f4;
   padding: 16px 24px;
   display: flex;
   align-items: center;
@@ -431,14 +431,14 @@ button {
   font-family: "Pretendard", "Prompt", sans-serif;
   font-weight: 700;
   font-size: 1.5rem;
-  color: rgba(255, 255, 255, 0.95);
+  color: #2F2420;
   margin: 0 0 4px;
   letter-spacing: 0.02em;
 }
 .dashboard-header__sub {
   font-size: 0.8rem;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(47, 36, 32, 0.8);
   margin: 0;
 }
 .dashboard-header__icons {
@@ -455,17 +455,18 @@ button {
   border: none;
   padding: 4px;
   cursor: pointer;
-  color: rgba(255, 255, 255, 0.9);
+  color: #2F2420;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.dashboard-header__icons button:hover { color: #fff; }
+.dashboard-header__icons button:hover { color: #859853; }
 .dashboard-nav {
   display: flex;
   align-items: center;
   padding: 14px 24px;
   background: #f7f6f4;
+  border-top: 1px solid rgba(47, 36, 32, 0.08);
   border-bottom: 1px solid rgba(47, 36, 32, 0.08);
   gap: 24px;
 }
