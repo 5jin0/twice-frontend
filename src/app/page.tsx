@@ -250,7 +250,7 @@ export default function DashboardPage() {
       <div className="login-page">
         <header className="login-header">
           <div className="logo" style={{ flexDirection: "row", alignItems: "center", gap: 10 }}>
-            <div className="login-logo-icon" aria-hidden />
+            <img src="/logo.png" alt="" className="login-logo-icon" />
             <span className="logo__text">DOOZZON Q</span>
           </div>
           <button type="button" className="login-moon" aria-label="다크 모드" title="다크 모드">
@@ -311,6 +311,7 @@ export default function DashboardPage() {
     <div className="dashboard">
       <header className="dashboard-header">
         <div className="dashboard-header__inner">
+          <img src="/logo.png" alt="" className="dashboard-header__logo-img" />
           <h1 className="dashboard-header__logo">DOOZZON Q</h1>
         </div>
         <div className="dashboard-header__icons">

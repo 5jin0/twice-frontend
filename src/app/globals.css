@@ -248,7 +248,7 @@ button {
   width: 36px;
   height: 36px;
   border-radius: 8px;
-  background: rgb(104, 154, 102);
+  object-fit: contain;
   flex-shrink: 0;
 }
 .login-main {
@@ -411,7 +411,17 @@ button {
   position: relative;
 }
 .dashboard-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
   text-align: center;
+}
+.dashboard-header__logo-img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  flex-shrink: 0;
 }
 .dashboard-header__logo {
   font-family: "Cormorant Garamond", Georgia, serif;
