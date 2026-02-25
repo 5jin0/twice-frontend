@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
   /* Fresh cabbage */
@@ -22,8 +22,9 @@
 
 body {
   margin: 0;
-  font-family: "DM Sans", system-ui, -apple-system, sans-serif;
+  font-family: "Pretendard", "Prompt", system-ui, -apple-system, sans-serif;
   font-size: 15px;
+  font-weight: 400;
   line-height: 1.55;
   color: var(--color-brown);
   background: var(--color-cream);
@@ -34,7 +35,7 @@ body:has(.dashboard) {
 }
 
 h1, h2, h3 {
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: "Pretendard", "Prompt", sans-serif;
   font-weight: 600;
   color: var(--color-brown);
   letter-spacing: 0.02em;
@@ -153,7 +154,7 @@ button {
   font-weight: 600;
   color: var(--color-brown);
   border-bottom: 2px solid var(--color-olive);
-  font-family: "DM Sans", sans-serif;
+  font-family: "Pretendard", "Prompt", sans-serif;
 }
 .table-wrap td {
   padding: 10px 8px;
@@ -181,7 +182,7 @@ button {
   margin-bottom: 4px;
 }
 .logo__text {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Pretendard", "Prompt", sans-serif;
   font-size: 1.1rem;
   font-weight: 600;
   letter-spacing: 0.12em;
@@ -267,7 +268,7 @@ button {
   box-shadow: 0 4px 24px rgba(47, 36, 32, 0.06);
 }
 .login-card__title {
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: "Pretendard", "Prompt", sans-serif;
   font-size: 1.75rem;
   font-weight: 600;
   color: #3A342F;
@@ -424,7 +425,7 @@ button {
   flex-shrink: 0;
 }
 .dashboard-header__logo {
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: "Pretendard", "Prompt", sans-serif;
   font-weight: 700;
   font-size: 1.5rem;
   color: rgba(255, 255, 255, 0.95);
@@ -520,7 +521,7 @@ button {
   margin-bottom: 24px;
 }
 .dashboard-card__title {
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: "Pretendard", "Prompt", sans-serif;
   font-size: 1.4rem;
   font-weight: 600;
   color: #2F2420;
@@ -590,7 +591,7 @@ button {
   margin-bottom: 14px;
 }
 .recent-history__title {
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: "Pretendard", "Prompt", sans-serif;
   font-size: 1.15rem;
   font-weight: 600;
   color: #2F2420;
@@ -600,7 +601,7 @@ button {
 .recent-history__refresh {
   background: none;
   border: none;
-  font-size: 12px;
+  font-size: 14px;
   color: #999;
   cursor: pointer;
   padding: 0;
@@ -689,7 +690,7 @@ button {
 }
 .history-card__title-wrap { flex: 1; }
 .history-card__title {
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: "Pretendard", "Prompt", sans-serif;
   font-size: 1.4rem;
   font-weight: 600;
   color: #2F2420;

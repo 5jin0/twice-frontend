@@ -260,7 +260,6 @@ export default function DashboardPage() {
         <main className="login-main">
           <div className="login-card">
             <h1 className="login-card__title">User 로그인</h1>
-            <p className="login-card__subtitle">PREMIUM QUIZ MANAGEMENT</p>
             <label htmlFor="login-user-id" className="login-card__label">USER ID</label>
             <div className="login-input-wrap">
               <span className="login-input-icon" aria-hidden>
@@ -284,7 +283,6 @@ export default function DashboardPage() {
               {loginLoading ? "확인 중…" : "계속하기"}
               <span aria-hidden>→</span>
             </button>
-            <p className="login-card__hint">Stored locally for visit and quiz analytics.</p>
             <div className="login-dots" role="presentation">
               <span className="login-dots__active" />
               <span />
@@ -357,7 +355,7 @@ export default function DashboardPage() {
         <div className="quiz-section">
           <span className="quiz-section__label">Start Quiz</span>
           <div className="quiz-section__row">
-            <input type="text" placeholder="Quiz ID" value={quizId} onChange={(e) => setQuizId(e.target.value)} className="input" />
+            <input type="text" placeholder="Quiz Category" value={quizId} onChange={(e) => setQuizId(e.target.value)} className="input" />
             <select value={difficultyLevel} onChange={(e) => setDifficultyLevel(e.target.value as DifficultyLevel)} className="select">
               <option value="LOW">LOW</option>
               <option value="MID">MID</option>
@@ -380,7 +378,6 @@ export default function DashboardPage() {
               {completeLoading ? "Completing…" : "Complete"}
             </button>
           </div>
-          <p className="quiz-section__hint">Stored in localStorage on change. Used for visit and quiz session management.</p>
           {completeError && <p className="text-error" style={{ margin: "4px 0 0" }}>{completeError}</p>}
           {phase === "HOME" && (
             <p style={{ marginTop: 8 }}>
